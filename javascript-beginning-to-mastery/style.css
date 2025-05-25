@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    height: 100vh;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .parent{
+    border: 1px solid blue;
+    width: 50%;
+    height: 50vh;
+    /* position: relative; */
+  }
+  .child{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    /* transform: translate(-50%,-50%); */
+  }
+  

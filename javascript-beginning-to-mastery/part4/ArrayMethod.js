@@ -72,7 +72,7 @@ console.log(newArr);
 
 //copyWithin
 //copies part of array
-// it mutate the origina array by overriding the array values
+// it mutate the original array by overriding the array values
 //it takes three agruments
 // target,start,end
 // target means where you start pasting the copied Element

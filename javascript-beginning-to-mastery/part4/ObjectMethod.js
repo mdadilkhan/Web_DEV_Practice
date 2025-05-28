@@ -10,13 +10,15 @@ const userObj={
  console.log(Object.prototype);//It gives the prototype object from which your object inherits — which is Object.prototype
  console.log(Object.getPrototypeOf(userObj))//It gives the prototype object from which your object inherits — which is Object.prototype
  //You're inspecting the prototype object that is shared by all objects created from Object.This gives you the instance methods that every object inherits by default.
- console.log(Object.getOwnPropertyNames(Object.prototype));
+//  console.log(Object.getOwnPropertyNames(Object.prototype));
  // below line You're inspecting the Object constructor function itself (the global Object function).This gives you static methods available directly on Object, like:
  console.log(Object.getOwnPropertyNames(Object)); 
 
 
 
 // 5 ways to crate object in js
+
+
 //>>>>>>>>>>>>>>>>>>> 1. Using Object Literal (most common) <<<<<<<<<<<<<<<<
 // ✅ Easiest and most readable syntax
 // ✅ Best for creating single or a few objects
@@ -36,6 +38,7 @@ person1.name="Md asif Khan"
 person1.age=22
 console.log(person1)
 
+
 //>>>>>>>>>>>>>>>>> 3. Using Constructor Function <<<<<<<<<<<<<<<<<<
 // ✅ Useful for creating multiple objects with the same structure
 // ✅ Each instance has its own copy of properties
@@ -50,13 +53,17 @@ function Person(){
 }
 const person2=new Person()
 console.log(person2)
-//dynamic cnstructor fucntionmic 
+//dynamic cnstructor fucntion
 function Person1(name,age){
     this.name=name
     this.age=age
+    this.about=function(){
+        console.log(`my name ${this.name} and age is ${this.age}`);
+        
+    }
 }
 const person3=new Person1("Md Adnan Khan",18)
-console.log(person3)
+person3.about()
 
 
 
@@ -66,6 +73,7 @@ console.log(person3)
 
 // it create an empty object but must have proto object paassed in create() function to attach the feature of proto object inside newly created empty object
 //below line is the syntax starts
+// inside protoo you can have any no of function which is available to all the obejct created 
 const proto={
 
 }
@@ -97,3 +105,103 @@ console.log(Object.getPrototypeOf(obj2)); // this line will also show you the at
 
 
 // >>>>>>>>>>>>>> 5. Using Class (ES6+) <<<<<<<<<<<<<<<<<<
+
+
+
+
+class Students {
+    constructor(name, age) {
+      this.name = name;
+      this.age = age;
+    }
+  
+    greet() {
+      return `Hi, I'm ${this.name}`;
+    }
+  }
+  
+  const p1 = new Students("John", 30);
+  console.log(p1.greet());
+  
+
+
+
+
+
+
+//   >>>>>>>>>>>>> Object Method <<<<<<<<<<<<<<<<<<<
+
+// 1. Object.assign(target, ...sources)
+
+//Copies properties from source objects to a target object.
+// Shallow copy, not deep.
+
+const obj3={a:1}
+const obj4={b:2}
+const merged=Object.assign({},obj3,obj4)
+console.log(merged);
+
+
+
+
+// Object.entries(obj)
+
+const obj5 = { a: 1, b: 2 };
+for (const [key, value] of Object.entries(obj5)) {
+  console.log(key, value);
+}
+// a 1
+// b 2
+
+// Object.keys(obj5)
+for(const key of Object.keys(obj5)){
+    console.log(key);
+    
+}
+
+
+// Object.values(obj)
+for(const value of Object.values(obj5)){
+    console.log(value);
+    
+}
+
+
+Object.freeze(obj5)
+// Makes an object fully immutable.
+// only Reading existing values is allowed
+//❌ Disallows:
+//Disallows Adding new properties
+//Disallows Deleting existing properties
+//Disallows Modifying property values
+//Disallows Changing property descriptors (writable, configurable, etc.)
+
+Object.seal(obj5)
+// Disallows adding/removing properties but allows value changes.
+
+
+Object.preventExtensions(obj)
+// Disallows:
+// Adding new properties
+// Allows:
+// Modifying existing properties
+// Deleting properties
+
+
+
+// compares two vlaues is equal or not 
+// Object.is(value1, value2)
+console.log(Object.is(NaN, NaN));      // true
+console.log(NaN === NaN);              // false
+console.log(Object.is(0, -0));         // false
+
+
+// Checks if object has own property (not from prototype).
+Object.hasOwn(obj, prop)
+const obj6 = { a: 1 };
+console.log(Object.hasOwn(obj6, 'a')); // true
+
+// // Deleting Properties
+delete obj.age
+
+

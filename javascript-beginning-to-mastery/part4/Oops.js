@@ -1,62 +1,62 @@
-// //Expample -? 1
-// function personInfo(){
-//     // console.log("this>>",this)
-//     console.log(`Hii i am ${this.name} my age is ${this.age} and studying in ${this.college} University`)
+//Expample -? 1
+function personInfo(){
+    // console.log("this>>",this)
+    console.log(`Hii i am ${this.name} my age is ${this.age} and studying in ${this.college} University`)
 
 
 
-// }
+}
 
 
-// const person1={
-//     name:"Md Aamir Khan",
-//     age:26,
-//     college:"NIT", 
-//     about:personInfo
-// }
-// const person2={
-//     name:"Md Adil Khan",
-//     age:24,
-//     college:"JMI", 
-//     about:personInfo
-// }
-// const person3={
-//     name:"Md Asif Khan",
-//     age:22,
-//     college:"PUSA", 
-//     about:personInfo
-// }
+const person1={
+    name:"Md Aamir Khan",
+    age:26,
+    college:"NIT", 
+    about:personInfo
+}
+const person2={
+    name:"Md Adil Khan",
+    age:24,
+    college:"JMI", 
+    about:personInfo
+}
+const person3={
+    name:"Md Asif Khan",
+    age:22,
+    college:"PUSA", 
+    about:personInfo
+}
 
 
-// person1.about()
-// person2.about()
-// person3.about()
+person1.about()
+person2.about()
+person3.about()
 
 
 // //  Example - 2 
-// const obj={
-//     name:"Md Adil Khan",
-//     age:24,
-//     college:"JMI",
-//     about: function(){
-//         console.log(`Hii i am ${this.name} my age is ${this.age} and studying in ${this.college} University`)
-//     },
-// }
+const obj={
+    name:"Md Adil Khan",
+    age:24,
+    college:"JMI",
+    about: function(){
+        console.log(`Hii i am ${this.name} my age is ${this.age} and studying in ${this.college} University`)
+    },
+}
 
 
-// const obj2={
-//     name:"Md Asif Khan",
-//     age:24,
-//     college:"PUSA",
+const obj2={
+    name:"Md Asif Khan",
+    age:24,
+    college:"PUSA",
 
-// }
+}
 
 
-// obj.about()
-// obj.about.call(obj2)
-// const func=obj.about.bind(obj2)
+obj.about()
+obj.about.call(obj2)
+const func=obj.about.bind(obj2)
 
-// func()
+func()
 
 
 

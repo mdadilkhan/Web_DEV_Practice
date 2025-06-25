@@ -1,0 +1,25 @@
+//for this file to make request to any route mention below you have to install package REST Client in your vs code
+
+### Health check
+GET  http://localhost:3000/health HTTP/1.1
+
+
+### get tasks
+GET  http://localhost:3000/v1/tasks HTTP/1.1
+
+
+### get tasks
+GET  http://localhost:3000/v1/tasks/1 HTTP/1.1
+
+
+
+### list projects
+GET  http://localhost:3000/v1/projects HTTP/1.1
+
+### getProjects
+GET  http://localhost:3000/v1/projects/1 HTTP/1.1
+
+### listPorjectTask
+GET  http://localhost:3000/v1/projects/1/task HTTP/1.1
+### get tasks
+

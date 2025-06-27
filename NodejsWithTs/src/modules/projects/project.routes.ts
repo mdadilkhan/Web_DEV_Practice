@@ -1,5 +1,5 @@
 import express, { Router } from "express";
-import {getProject,listProjectTasks,listProjects} from './controller'
+import {getProject,listProjectTasks,listProjects} from './project.controller'
 const projects: Router = express.Router();
 
 projects.get("/",listProjects);

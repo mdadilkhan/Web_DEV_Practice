@@ -5,21 +5,21 @@ GET  http://localhost:3000/health HTTP/1.1
 
 
 ### get tasks
-GET  http://localhost:3000/v1/tasks HTTP/1.1
+GET  http://localhost:3000/api/tasks HTTP/1.1
 
 
 ### get tasks
-GET  http://localhost:3000/v1/tasks/1 HTTP/1.1
+GET  http://localhost:3001/api/tasks/1 HTTP/1.1
 
 
 
 ### list projects
-GET  http://localhost:3000/v1/projects HTTP/1.1
+GET  http://localhost:3001/api/projects HTTP/1.1
 
 ### getProjects
-GET  http://localhost:3000/v1/projects/1 HTTP/1.1
+GET  http://localhost:3000/api/projects/1 HTTP/1.1
 
 ### listPorjectTask
-GET  http://localhost:3000/v1/projects/1/task HTTP/1.1
+GET  http://localhost:3000/api/projects/1/task HTTP/1.1
 ### get tasks
 

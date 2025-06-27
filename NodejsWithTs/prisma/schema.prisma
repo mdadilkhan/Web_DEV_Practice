@@ -1,3 +1,4 @@
+
 // This is your Prisma schema file,
 // learn more about it in the docs: https://pris.ly/d/prisma-schema
 
@@ -12,7 +13,7 @@ generator client {
 
 // here provider can be postgress mongodb sql
 datasource db {
-  provider = "mysql"
+  provider = "postgresql"
   url      = env("DATABASE_URL")
 }
 
@@ -20,8 +21,30 @@ datasource db {
 
 
 model User {
-  id        Int      @id @default(autoincrement())
-  name      String
-  email     String   @unique
-  createdAt DateTime @default(now())
+  id    Int     @id @default(autoincrement())
+  email String  @unique
+  name  String?
+  posts Post[]
+}
+
+model Post {
+  id        Int     @id @default(autoincrement())
+  title     String
+  content   String?
+  published Boolean @default(false)
+  author    User    @relation(fields: [authorId], references: [id])
+  authorId  Int
+}
+
+
+
+model example{
+  id String @id @default(uuid()) 
+  name String 
+  email String @unique
+  age Int?
+  balance Decimal
+  // intrest String[] //supported in postgree
+  // bookId Int[]  //supported in postgree
+
 }

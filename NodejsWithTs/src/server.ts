@@ -4,7 +4,7 @@ import morgan from 'morgan'
 import helmet from 'helmet'
 import cookieParser from 'cookie-parser'
 import config from "./config";
-import v1 from "./routes/v1";
+import api from "./modules/index.routes";
 import errorHandler from "./middleware/error-handler";
 
 
@@ -41,7 +41,7 @@ export const createServer=()=>{
     })
     
     // actual routes
-    app.use('/v1',v1)
+    app.use('/api',api)
 
     // error handler global middleware
     app.use(errorHandler)

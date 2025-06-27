@@ -16,7 +16,6 @@ class CustomError<C extends string> extends Error {
   }
 }
 
-const err2 = new CustomError({ message: "Custom error", statusCode: 400, code: "MY_CODE" });
 
 
 

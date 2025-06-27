@@ -13,38 +13,39 @@ generator client {
 
 // here provider can be postgress mongodb sql
 datasource db {
-  provider = "postgresql"
+  provider = "mysql"
   url      = env("DATABASE_URL")
 }
 
 
 
-
-model User {
-  id    Int     @id @default(autoincrement())
-  email String  @unique
-  name  String?
-  posts Post[]
+model Task{
+   id String @unique @id @default(cuid())
+   user_id String @db.VarChar(36) // uuid field
+   project_id String?
+   name String
+   description String @db.Text // text is used due to unlimited limitation only String will have only 255 length
+   due_date DateTime? @db.Date //Prisma's DateTime defaults to PostgreSQL's TIMESTAMP (includes date + time + timezone).@db.Date narrows it to date-only storage (no time component), which:
+   completed_on DateTime? @db.DateTime()
+   created_at DateTime @default(now())
+   updated_at DateTime @updatedAt
+   project Project? @relation(fields: [project_id],references: [id])
+ 
+ 
+  @@index([user_id])
+  @@map("tasks")
 }
 
-model Post {
-  id        Int     @id @default(autoincrement())
-  title     String
-  content   String?
-  published Boolean @default(false)
-  author    User    @relation(fields: [authorId], references: [id])
-  authorId  Int
-}
 
+model Project{
+  id String @unique @id @default(cuid())
+  user_id String @db.VarChar(36)
+  name String
+  description String? @db.Text
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt
+  task Task[]
 
-
-model example{
-  id String @id @default(uuid()) 
-  name String 
-  email String @unique
-  age Int?
-  balance Decimal
-  // intrest String[] //supported in postgree
-  // bookId Int[]  //supported in postgree
-
+  @@index([user_id])
+  @@map("projects")
 }

@@ -5,13 +5,8 @@ import CustomError from '../errors/CustomError';
 
 
 
-export default function errorHandler(error:unknown,req:Request,res:Response,next:NextFunction){
-    console.log("inside middleware");
-    console.log(res.headersSent);
-    
+export default function errorHandler(error:unknown,req:Request,res:Response,next:NextFunction){    
   if(res.headersSent || config.debug){
-    console.log("inside if of error handler");
-    
     next(error)
     return
   }

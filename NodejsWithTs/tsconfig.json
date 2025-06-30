@@ -7,9 +7,16 @@
     "strict": true,                                      /* Enable all strict type-checking options. */
     "skipLibCheck": true,                                /* Skip type checking all .d.ts files. */
     "outDir": "dist",
-    "rootDir": "./src"
-
+    "rootDir": "./src",
+    "removeComments": true,
+    // "baseUrl": ".",
+    // "paths": {
+    //   "@/*":["src/*"]
+    // }
   },
   "include": ["src/**/*"],
-  "exclude": ["node_modules","dist","test"]
+  "exclude": ["node_modules","dist","test"],
+  "ts-node": {
+    "files": true
+  }
 }

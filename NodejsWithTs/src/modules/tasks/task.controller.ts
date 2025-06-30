@@ -10,7 +10,7 @@ export const getTask = async (
   res: Response,
   next: NextFunction
 ) => {
-  // console.log("getTasks",req.params.id);
+
 
   try {
     // throw new Error("Db operation failed");
@@ -22,8 +22,8 @@ export const getTask = async (
     res
       .status(200)
       .json({ message: "success", data: { id: 1, name: "task1" } });
-  } catch (error) {
-    console.log("isidne error block", error);
+  } catch (error:any) {
+    console.log("isidne error block", error.message,error.name);
 
     next(error);
   }

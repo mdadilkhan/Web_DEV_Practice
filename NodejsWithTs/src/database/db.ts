@@ -1,1 +1,7 @@
-//when you are not using databse folder is used to make connection of diff databse
+import { PrismaClient } from "@prisma/client";
+
+
+const prisma = new PrismaClient()
+
+
+export default prisma

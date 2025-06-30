@@ -6,6 +6,9 @@ import cookieParser from 'cookie-parser'
 import config from "./config";
 import api from "./modules/index.routes";
 import errorHandler from "./middleware/error-handler";
+import logger from "./logger";
+import morganMiddleware from "./middleware/morgan-middleware";
+
 
 
 const allowedOrigins = [
@@ -23,12 +26,12 @@ const allowedOrigins = [
     credentials: true, // ✅ Allow cookies & Authorization headers
     optionsSuccessStatus: 204,
   };
-
+ 
   
 export const createServer=()=>{    
     const app=express();
     app.disable('x-powered-by')
-    .use(morgan('dev'))
+    .use(morganMiddleware)
     .use(helmet())
     .use(cors(corsOptions))
     .use(express.json())

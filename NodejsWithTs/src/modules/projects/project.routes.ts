@@ -1,9 +1,18 @@
 import express, { Router } from "express";
-import {getProject,listProjectTasks,listProjects} from './project.controller'
+import {
+  getProjectHandler,
+  listProjectHandler,
+  listProjectTaskHandler,
+} from './project.controller';
+import authenticateUser from "../../middleware/authenticate-user";
+
 const projects: Router = express.Router();
 
-projects.get("/",listProjects);
-projects.get("/:id",getProject);
-projects.get("/:id/task",listProjectTasks);
+
+projects.use(authenticateUser)
+projects.get("/:id", getProjectHandler);
+projects.get("/", listProjectHandler);
+projects.get("/:id/task", listProjectTaskHandler);
 
 export default projects;
+

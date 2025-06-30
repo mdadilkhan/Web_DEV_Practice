@@ -1,7 +1,7 @@
 //for this file to make request to any route mention below you have to install package REST Client in your vs code
 
 ### Health check
-GET  http://localhost:3000/health HTTP/1.1
+GET  http://localhost:3001/health HTTP/1.1
 
 
 ### get tasks
@@ -15,9 +15,10 @@ GET  http://localhost:3001/api/tasks/1 HTTP/1.1
 
 ### list projects
 GET  http://localhost:3001/api/projects HTTP/1.1
+Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImMzMTZjMWIwLTlmMmYtNDJjNS05YmJkLTE1YTY0NTQ3MWUwOSIsImlhdCI6MTc1MTEwNzY0NCwiZXhwIjoxNzUxMTExMjQ0LCJpc3MiOiJjb2RlQ2FmZTI0In0.1fxYI342V6tcaVrMLjv78Cq9PqWSSzXsqQ50bpphmCI
 
 ### getProjects
-GET  http://localhost:3000/api/projects/1 HTTP/1.1
+GET  http://localhost:3001/api/projects/1 HTTP/1.1
 
 ### listPorjectTask
 GET  http://localhost:3000/api/projects/1/task HTTP/1.1

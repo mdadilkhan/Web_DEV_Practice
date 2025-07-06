@@ -110,3 +110,13 @@ const students = [
   console.log(allHobbiesWithName);
   
   
+// sort
+// forEach
+// filter
+// map
+// every
+// some
+// reduce
+// reduceRight
+
+  

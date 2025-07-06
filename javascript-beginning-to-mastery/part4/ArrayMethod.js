@@ -271,7 +271,7 @@ const people = [
  //Remove elements
  const sp=[1, 2, 3, 4, 5]
  const removed = sp.splice(2, 2); //remove two slement from 2th position and return array
- console.log(removed,sp);
+ console.log("splice",removed,sp);
 
 
 //  Add elements
@@ -336,7 +336,7 @@ console.log(newValue);
 
 
 // flat(dept) methos is used to flaten nested array into single level array
-// it takes argument dept it tells the fucntion how dept you wan to flaten the array
+// it takes argument dept it tells the fucntion how dept you want to flaten the array
 // defualt dept is 1
 // return new array
 // it can flaten infintly nested array just pass the Infinity in arguments

@@ -13,6 +13,7 @@ import './App.css'
 
 
 function App(){
+    
     return (
         <div className='heading'>
            {/* <UseState/> */}
@@ -25,6 +26,7 @@ function App(){
            {/* <TodoApp/> */}
            {/* <UseTrasnition/> */}
            <UseDeferredValue/>
+
         </div>
     )
 }

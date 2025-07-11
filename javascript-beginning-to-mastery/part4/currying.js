@@ -6,13 +6,14 @@
 
 // 2. Can you explain currying with a simple example?
 
-function add(a){
+
+function summofTwo(a){
     return function (b){
         return a+b;
     }
 }
-
-console.log(add(5)(15));
+const ans=summofTwo(5)(10)
+console.log(">>>",ans)
 
 
 // 3. Convert a function sum(a, b) to a curried version.
@@ -52,19 +53,19 @@ function sum1(a){
     }
 }
 
-console.log(sum1(10)(20)(30));
+console.log("sum1",sum1(10)(20)(30));
 
 
 // 9. Write a curried function to multiply three numbers.
 
-function multiply(x){
-    return function(y){
-        return function(z){
-            return x*y*z;
+function multiply(a){
+    return function(b){
+        return function(c){
+           return a*b*c
         }
     }
 }
-console.log(multiply(10)(20)(30))
+console.log("mult>>",multiply(10)(20)(30))
 
 
 
@@ -87,30 +88,31 @@ console.log(multiply(10)(20)(30))
 function calculate(price){
     return function(quantity){
         return function(tax){
-            return price*quantity+(price*quantity*tax/100)
+            const temp=price*quantity
+            const totalPirce=temp+(temp*(10/100))
+            return totalPirce
         }
     }
 }
-
-console.log(calculate(50)(10)(10));
+console.log("cal>>",calculate(50)(10)(10));
 
 // 15. What will be the output?
-function add(a) {
+function add2(a) {
     return function(b) {
       return function(c) {
         return a + b + c;
       };
     };
   }
-//   console.log(add(1)(2)(3)); // 6
-//   console.log(add(1, 2)(3)); // TypeError: add(...) is not a function
+  console.log(add2(1)(2)(3)); // 6
+  console.log(add2(1, 2)(3)); // it will return a fucnbtion hwere it si expecting its third arguments
 
 
 
   //currying with arrow function
-  const func=(a)=>(b)=>(c)=>a+b+c;
+const func=(a)=>(b)=>(c)=>a+b+c
 
-  console.log("hello",func(10)(10)(10))
+  console.log("arrow func",func(10)(10)(10))
 
 
 
@@ -136,7 +138,9 @@ function add(a) {
   
 
 
-  // infinite currying
+
+// ! Infinite Currying
+// ! important
 
 
   function add(a){
@@ -150,11 +154,22 @@ function add(a) {
   }
 
 
-  console.log(add(4)(10)());
+  function multplyInfinte(a){
+    return function(b){
+        if(b){
+            return multplyInfinte(a*b)
+        }else{
+            return a;
+        }
+    }
+  }
 
+  console.log(add(4)(10)());  //to stop infinte currying you have to pass empty argument 
+console.log(multplyInfinte(9)(9)(9)(9)(9)())
 
 
   // partial application
+  // * fixing some arguments of a fcuntion and returning a new fcuntion that takes the remaining argument
 
   function mult(a){
       return function(b,c){
@@ -166,20 +181,20 @@ function add(a) {
 
 
 
-  // Real world Exapple
-  //Dom Manupulation
+//   Real world Exapple
+//   Dom Manupulation
 
 
 
-  function updateElementText(id){
-    return function(content){
-        document.querySelector("#"+id).textContent=content
-    }
-  }
+//   function updateElementText(id){
+//     return function(content){
+//         document.querySelector("#"+id).textContent=content
+//     }
+//   }
 
 
 
-  updateElementText("heading")("Currying Practice")
+//   updateElementText("heading")("Currying Practice")
 
 
 
@@ -189,13 +204,16 @@ function add(a) {
   //.length property of a function returns the number of parameters it’s declared with (NOT the number of arguments passed in during call time).
 
 
-  
+// ! Important
+// todo
   function curry(func){
     console.log("hello2",func.length);
     return function curriedFunction(...args){
         console.log("hello>>",args.length,func.length);
         
         if(args.length>=func.length){
+            console.log("isnde if>>");
+            
             return func(...args)
         }else{
             console.log("else called");
@@ -213,25 +231,10 @@ function add(a) {
 
 
   const totalSum=curry(addition);
+  console.log(totalSum);
+  
   console.log(totalSum(5)(10)(20));
   
 
-  const nums=[1,23,4,5]
-  console.log(nums.__proto__);
-  console.log(nums.__proto__===Array.prototype);
-
-  const obj={
-    name:"Md adil"
-  }
-
-  console.log(Object.getPrototypeOf(obj));
-  console.log(Object.getOwnPropertyNames(Object.prototype));
-  
-  function x(){
-    
-  }
-
-
-  console.log(Object.getPrototypeOf(x));
   
   

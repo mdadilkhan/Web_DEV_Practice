@@ -1,0 +1,17 @@
+version: v1
+plugins:
+  - plugin: buf.build/protocolbuffers/js
+    out: gen/js
+  - plugin: buf.build/bufbuild/es
+    out: gen/ts
+    opt: target=ts
+
+
+
+
+# not need for belo line bec it doen browser and grpc connection
+  # 3. Generate Connect-Web client (recommended)
+  # - remote: buf.build/connect-web/es
+  #   out: gen/ts
+  #   opt:
+  #     - target=ts

@@ -12,6 +12,7 @@ import { useRef, useState, useEffect } from "react";
 //     const handleClick=()=>{
 //         inputRef.current.focus()
 //         console.log(inputRef.current);
+//         setName("")
 //     }
 
 //     return (

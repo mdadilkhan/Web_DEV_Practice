@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "outDir": "dist",
+    "rootDir": "./src",
+    "removeComments": true,
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules","dist","test"],
+  "ts-node": {
+    "files": true
+  }
+}

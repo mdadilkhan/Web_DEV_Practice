@@ -21,11 +21,11 @@ function App(){
            {/* <UseContext/> */}
            {/* <UseRef/> */}
            {/* <UseMemo/> */}
-           {/* <UseCallback/> */}
+           <UseCallback/>
            {/* <UseReducer/> */}
            {/* <TodoApp/> */}
            {/* <UseTrasnition/> */}
-           <UseDeferredValue/>
+           {/* <UseDeferredValue/> */}
 
         </div>
     )

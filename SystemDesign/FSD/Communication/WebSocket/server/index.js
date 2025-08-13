@@ -37,27 +37,27 @@ const io = new Server(server, {
 });
 
 // middleware for socket
-io.use((socket, next) => {
-  const cookie = socket?.handshake?.headers?.cookie;
+// io.use((socket, next) => {
+//   const cookie = socket?.handshake?.headers?.cookie;
 
-  if (!cookie) {
-    console.error("Authentication Error: No cookie found in headers");
-    return next(new Error("Authentication Error: No cookie provided"));
-  }
+//   if (!cookie) {
+//     console.error("Authentication Error: No cookie found in headers");
+//     return next(new Error("Authentication Error: No cookie provided"));
+//   }
 
-  try {
-    const token = cookie.split("=")[1].trim();
-    console.log(token);
+//   try {
+//     const token = cookie.split("=")[1].trim();
+//     console.log(token);
 
-    const decoded = jwt.verify(token, "LONEWOL");
-    console.log(decoded);
-    socket.user = decoded;
-    return next();
-  } catch (error) {
-    console.log("inside error");
-    return next(new Error(`Authentication Error: ${error.message}`));
-  }
-});
+//     const decoded = jwt.verify(token, "LONEWOL");
+//     console.log(decoded);
+//     socket.user = decoded;
+//     return next();
+//   } catch (error) {
+//     console.log("inside error");
+//     return next(new Error(`Authentication Error: ${error.message}`));
+//   }
+// });
 
 // Optional: Socket.IO connection handler
 io.on("connection", (socket) => {

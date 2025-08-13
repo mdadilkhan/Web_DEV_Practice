@@ -249,24 +249,24 @@ newFunc("Plastic Bottle Factory",500000)
 
 
 
-// // >>>>>>>>> polyfill for once method <<<<<<<<<<<<<<<<<
+//* >>>>>>>>> polyfill for once method <<<<<<<<<<<<<<<<<
 
-// function once(calback){
-//     let ran=false;
-//     let result;
-//     // console.log("once this",this);
-//     // console.log("once calback",calback);
+function once(calback){
+    let ran=false;
+    let result;
+    console.log("once this",this);
+    console.log("once calback",calback);
     
-//     return function(...args){
-//         // console.log("args",args);
+    return function(...args){
+        // console.log("args",args);
         
-//         if(!ran){
-//           result=calback.apply(this,args)
-//           ran=true
-//        }
-//        return result;
-//     }
-// }
+        if(!ran){
+          result=calback.apply(this,args)
+          ran=true
+       }
+       return result;
+    }
+}
 
 // const callOnce=once((name)=>{
 //     console.log(`Hello ${name}, only once!`);

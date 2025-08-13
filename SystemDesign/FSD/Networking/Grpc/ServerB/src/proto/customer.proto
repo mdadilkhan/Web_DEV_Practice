@@ -1,0 +1,60 @@
+
+
+syntax = "proto3";
+
+package customerservice;
+
+
+// import "google/api/annotations.proto";
+
+
+// Two Styles of gRPC APIs
+
+// 🔹 Option A: gRPC only-> Communicates using HTTP/2 + Protobuf.
+// 🔹 Option B: gRPC + HTTP REST (via google.api.http)-> Accepts HTTP/1.1 + JSON.
+
+
+
+// option A
+service CustomerService {
+    rpc GetAllCustomer (Empty) returns (CustomerList);  // to get all teh customers
+    rpc GetCustomerById (CustomerId) returns (Customer); // to get customer based on customer id
+    rpc InsertCustomer (Customer) returns (Customer); // to create new customer
+    rpc UpdateCustomer (Customer) returns (Customer); // upate a customer
+    rpc DeleteCustomer (CustomerId) returns (Empty);  // delete a customer
+}
+
+
+
+
+message Empty {}
+
+message CustomerId{
+     string id=1;
+}
+
+message CustomerList{
+    repeated Customer customers=1;
+}
+
+message Customer{
+   string id=1;
+   string name=2;
+   int32 age=3;
+   string address=4;
+}
+
+
+
+
+
+// Option B
+// service CustomerService {
+//   rpc GetAll(google.protobuf.Empty) returns (CustomerList) {
+//     option (google.api.http) = {
+//       get: "/customers"
+//     };
+//   }
+// }
+
+

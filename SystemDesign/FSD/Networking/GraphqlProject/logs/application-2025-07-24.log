@@ -1,0 +1,361 @@
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 11:38:42.906 AM"}
+{"level":"warn","message":"Mongoose disconnected from DB","timestamp":"2025-07-24 11:38:48.310 AM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 11:39:03.180 AM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 11:40:20.165 AM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 11:40:48.588 AM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 11:41:00.261 AM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 11:41:11.154 AM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 11:41:16.402 AM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 11:41:23.158 AM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 11:41:51.740 AM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 11:41:56.339 AM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 11:42:03.492 AM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 11:42:18.864 AM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 11:42:23.166 AM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 11:42:31.306 AM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 11:42:37.124 AM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 11:42:43.748 AM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 11:42:49.482 AM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 11:42:55.192 AM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 11:42:59.968 AM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 11:43:30.851 AM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 11:44:19.592 AM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 11:44:46.831 AM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 11:45:17.347 AM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 11:45:26.501 AM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 11:46:11.705 AM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 01:03:21.967 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 01:05:09.800 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 01:05:26.899 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 01:13:19.937 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 01:13:33.253 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 01:13:47.181 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 01:13:51.576 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 01:13:59.355 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 01:14:11.925 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 01:14:18.164 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 01:14:25.401 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 01:14:34.851 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 01:14:40.790 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 01:14:56.545 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 01:15:07.146 PM"}
+{"level":"warn","message":"Mongoose disconnected from DB","timestamp":"2025-07-24 01:15:12.870 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 01:33:43.544 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 01:38:25.409 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 01:38:36.058 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 01:43:13.190 PM"}
+{"level":"warn","message":"Mongoose disconnected from DB","timestamp":"2025-07-24 01:44:26.758 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 02:14:29.649 PM"}
+{"level":"warn","message":"Mongoose disconnected from DB","timestamp":"2025-07-24 02:17:18.736 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 02:24:50.970 PM"}
+{"level":"warn","message":"Mongoose disconnected from DB","timestamp":"2025-07-24 02:49:21.981 PM"}
+{"level":"info","message":"Mongoose connected to DB","timestamp":"2025-07-24 02:49:23.055 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 02:50:32.679 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 02:51:40.475 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 02:56:13.615 PM"}
+{"level":"warn","message":"Retrying database connection (attempt 1)...","timestamp":"2025-07-24 03:00:48.596 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 03:00:57.635 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 03:03:13.211 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 03:03:31.662 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 03:04:02.084 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 03:05:46.635 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 03:07:16.234 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 03:07:40.410 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 03:09:38.961 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 03:13:18.713 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 03:13:49.352 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 03:14:19.053 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 03:17:38.527 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 03:18:54.001 PM"}
+{"level":"warn","message":"Retrying database connection (attempt 1)...","timestamp":"2025-07-24 03:22:11.561 PM"}
+{"level":"warn","message":"Retrying database connection (attempt 2)...","timestamp":"2025-07-24 03:22:21.580 PM"}
+{"level":"warn","message":"Retrying database connection (attempt 3)...","timestamp":"2025-07-24 03:22:31.600 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 03:22:41.882 PM"}
+{"level":"warn","message":"Mongoose disconnected from DB","timestamp":"2025-07-24 03:23:49.065 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 03:24:10.318 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 03:24:23.781 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 03:24:37.149 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 03:24:52.097 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 03:25:00.185 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 03:25:39.154 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 03:25:45.344 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 03:25:58.963 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 03:26:06.442 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 03:26:11.763 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 03:26:18.320 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 03:26:29.869 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 03:26:41.806 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 03:26:57.734 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 03:27:16.272 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 03:27:48.326 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 03:27:58.300 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 03:28:05.838 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 03:28:52.270 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 03:29:40.664 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 03:37:01.228 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 03:37:31.416 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 03:38:00.691 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 03:38:13.999 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 03:38:50.049 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 03:40:45.757 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 03:41:06.223 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 03:45:57.777 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 03:54:27.731 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 04:09:27.912 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 04:12:26.638 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 04:14:09.317 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 04:14:30.543 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 04:15:03.516 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 04:16:34.243 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 04:16:42.801 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 04:17:13.570 PM"}
+{"level":"warn","message":"Mongoose disconnected from DB","timestamp":"2025-07-24 04:38:38.346 PM"}
+{"level":"info","message":"Mongoose connected to DB","timestamp":"2025-07-24 04:38:38.434 PM"}
+{"level":"warn","message":"Mongoose disconnected from DB","timestamp":"2025-07-24 04:45:43.979 PM"}
+{"level":"info","message":"Mongoose connected to DB","timestamp":"2025-07-24 04:45:44.056 PM"}
+{"level":"warn","message":"Mongoose disconnected from DB","timestamp":"2025-07-24 04:57:22.649 PM"}
+{"level":"info","message":"Mongoose connected to DB","timestamp":"2025-07-24 04:57:22.686 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 05:01:47.180 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 05:01:53.877 PM"}
+{"level":"warn","message":"Mongoose disconnected from DB","timestamp":"2025-07-24 05:13:32.783 PM"}
+{"level":"info","message":"Mongoose connected to DB","timestamp":"2025-07-24 05:13:32.843 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 05:32:57.251 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 05:49:20.302 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 05:50:01.401 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 05:50:46.249 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 05:52:35.574 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 05:55:31.648 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 05:55:47.589 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 05:56:00.795 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 05:57:24.969 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 05:57:54.905 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 05:58:04.850 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 05:58:12.792 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 05:58:51.913 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 05:59:02.152 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 06:03:34.948 PM"}
+{"level":"warn","message":"Mongoose disconnected from DB","timestamp":"2025-07-24 06:05:20.889 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 06:24:06.545 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 06:25:14.966 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 06:36:13.365 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 06:36:32.836 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 06:37:53.528 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 06:39:45.457 PM"}
+{"level":"warn","message":"Mongoose disconnected from DB","timestamp":"2025-07-24 06:59:02.635 PM"}
+{"level":"info","message":"Mongoose connected to DB","timestamp":"2025-07-24 06:59:02.646 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 06:59:15.981 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 07:09:33.411 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 07:10:43.247 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 07:13:53.510 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 07:15:13.072 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 07:15:22.023 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 07:18:26.715 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 07:19:04.706 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 07:19:47.322 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 07:19:59.261 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 07:20:04.410 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 07:27:35.422 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 07:42:37.718 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 08:18:15.895 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 08:36:20.418 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 08:37:11.618 PM"}
+{"level":"warn","message":"Mongoose disconnected from DB","timestamp":"2025-07-24 08:37:24.425 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 08:59:05.244 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 09:06:44.899 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 09:06:53.195 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 09:06:59.234 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 09:16:05.884 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 09:16:21.840 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 09:16:34.229 PM"}
+{"level":"warn","message":"Mongoose disconnected from DB","timestamp":"2025-07-24 09:28:32.745 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 09:28:50.211 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 09:36:07.450 PM"}
+{"level":"http","message":"GET url 200 3522 - 7.057 ms","timestamp":"2025-07-24 09:36:15.713 PM"}
+{"level":"http","message":"GET url 200 3522 - 1.861 ms","timestamp":"2025-07-24 09:36:27.711 PM"}
+{"level":"http","message":"GET url 404 139 - 1.834 ms","timestamp":"2025-07-24 09:36:45.378 PM"}
+{"level":"http","message":"GET url 404 139 - 1.146 ms","timestamp":"2025-07-24 09:36:47.158 PM"}
+{"level":"http","message":"GET url 404 139 - 0.536 ms","timestamp":"2025-07-24 09:36:47.591 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 09:37:24.632 PM"}
+{"level":"http","message":"GET url 200 21 - 5.544 ms","timestamp":"2025-07-24 09:37:31.721 PM"}
+{"level":"http","message":"GET url 404 150 - 1.525 ms","timestamp":"2025-07-24 09:37:31.758 PM"}
+{"level":"http","message":"GET url 404 139 - 0.773 ms","timestamp":"2025-07-24 09:37:35.305 PM"}
+{"level":"http","message":"GET url 200 3522 - 7.177 ms","timestamp":"2025-07-24 09:37:41.941 PM"}
+{"level":"http","message":"GET url 200 3522 - 1.570 ms","timestamp":"2025-07-24 09:37:42.066 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 09:37:44.340 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 09:37:57.654 PM"}
+{"level":"http","message":"GET url 200 3522 - 7.736 ms","timestamp":"2025-07-24 09:38:01.717 PM"}
+{"level":"http","message":"GET url 200 3522 - 1.792 ms","timestamp":"2025-07-24 09:38:03.420 PM"}
+{"level":"http","message":"GET url 200 3522 - 1.289 ms","timestamp":"2025-07-24 09:38:03.677 PM"}
+{"level":"http","message":"GET url 200 3522 - 0.528 ms","timestamp":"2025-07-24 09:38:03.832 PM"}
+{"level":"http","message":"GET url 200 3522 - 0.786 ms","timestamp":"2025-07-24 09:38:03.984 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 09:38:15.615 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 09:39:53.776 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 09:40:09.542 PM"}
+{"level":"http","message":"GET url 200 3522 - 7.373 ms","timestamp":"2025-07-24 09:40:16.150 PM"}
+{"level":"warn","message":"Mongoose disconnected from DB","timestamp":"2025-07-24 09:40:27.667 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 09:40:33.707 PM"}
+{"level":"http","message":"GET url 200 3522 - 7.923 ms","timestamp":"2025-07-24 09:40:38.411 PM"}
+{"level":"http","message":"GET url 404 139 - 2.917 ms","timestamp":"2025-07-24 09:40:45.362 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 09:42:00.373 PM"}
+{"level":"http","message":"GET url 200 3522 - 7.997 ms","timestamp":"2025-07-24 09:42:07.552 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 09:45:03.061 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 09:46:07.262 PM"}
+{"level":"http","message":"GET url 200 3522 - 22.037 ms","timestamp":"2025-07-24 09:46:12.649 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 09:46:32.743 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 09:46:40.445 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 09:46:50.158 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 09:48:23.516 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 09:48:59.913 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 09:49:20.189 PM"}
+{"level":"http","message":"POST url 200 23895 - 36.449 ms","timestamp":"2025-07-24 09:49:20.524 PM"}
+{"level":"http","message":"POST url 200 23895 - 6.752 ms","timestamp":"2025-07-24 09:49:25.486 PM"}
+{"level":"http","message":"GET url 200 3522 - 6.639 ms","timestamp":"2025-07-24 09:49:29.975 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 09:49:31.228 PM"}
+{"level":"http","message":"GET url 200 3522 - 2.331 ms","timestamp":"2025-07-24 09:49:33.352 PM"}
+{"level":"http","message":"GET url 200 3522 - 1.363 ms","timestamp":"2025-07-24 09:49:34.037 PM"}
+{"level":"http","message":"GET url 200 3522 - 0.799 ms","timestamp":"2025-07-24 09:49:34.204 PM"}
+{"level":"http","message":"GET url 200 3522 - 0.768 ms","timestamp":"2025-07-24 09:49:36.682 PM"}
+{"level":"http","message":"GET url 200 3522 - 2.141 ms","timestamp":"2025-07-24 09:49:37.275 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 09:49:56.960 PM"}
+{"level":"http","message":"GET url 200 3522 - 6.989 ms","timestamp":"2025-07-24 09:49:59.995 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 09:50:01.824 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 09:50:23.200 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 09:50:37.807 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 09:50:49.277 PM"}
+{"level":"http","message":"GET url 404 150 - 5.867 ms","timestamp":"2025-07-24 09:51:04.220 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 09:51:05.387 PM"}
+{"level":"http","message":"GET url 404 150 - 0.973 ms","timestamp":"2025-07-24 09:52:11.607 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 09:54:13.573 PM"}
+{"level":"http","message":"GET url 200 3522 - 5.900 ms","timestamp":"2025-07-24 09:54:29.817 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 09:56:00.582 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 09:56:14.503 PM"}
+{"level":"http","message":"GET url 200 3522 - 3.429 ms","timestamp":"2025-07-24 09:56:19.373 PM"}
+{"level":"http","message":"GET url 200 3522 - 1.527 ms","timestamp":"2025-07-24 09:56:21.775 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 09:56:21.870 PM"}
+{"level":"http","message":"GET url 200 3522 - 1.032 ms","timestamp":"2025-07-24 09:56:22.554 PM"}
+{"level":"http","message":"GET url 200 3522 - 0.838 ms","timestamp":"2025-07-24 09:56:22.707 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 09:56:34.037 PM"}
+{"level":"http","message":"GET url 200 3522 - 5.501 ms","timestamp":"2025-07-24 09:56:49.245 PM"}
+{"level":"http","message":"GET url 200 3522 - 1.470 ms","timestamp":"2025-07-24 09:56:50.388 PM"}
+{"level":"http","message":"GET url 200 3522 - 1.234 ms","timestamp":"2025-07-24 09:56:51.186 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 09:56:51.593 PM"}
+{"level":"http","message":"GET url 200 3522 - 8.001 ms","timestamp":"2025-07-24 09:57:09.937 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 09:57:12.053 PM"}
+{"level":"http","message":"GET url 200 3522 - 1.482 ms","timestamp":"2025-07-24 09:57:12.258 PM"}
+{"level":"http","message":"GET url 200 3522 - 8.266 ms","timestamp":"2025-07-24 09:57:22.187 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 09:57:24.642 PM"}
+{"level":"http","message":"GET url 200 3522 - 3.857 ms","timestamp":"2025-07-24 09:57:35.082 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 09:57:38.064 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 09:57:48.944 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 09:58:05.252 PM"}
+{"level":"http","message":"GET url 200 3522 - 5.017 ms","timestamp":"2025-07-24 09:59:02.638 PM"}
+{"level":"http","message":"GET url 404 150 - 3.383 ms","timestamp":"2025-07-24 09:59:02.669 PM"}
+{"level":"http","message":"POST url 200 23113 - 27.318 ms","timestamp":"2025-07-24 09:59:04.533 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 09:59:05.061 PM"}
+{"level":"http","message":"POST url 200 23895 - 11.192 ms","timestamp":"2025-07-24 09:59:09.639 PM"}
+{"level":"http","message":"POST url 200 906 - 2144.841 ms","timestamp":"2025-07-24 09:59:14.251 PM"}
+{"level":"http","message":"POST url 200 23895 - 6.104 ms","timestamp":"2025-07-24 09:59:14.634 PM"}
+{"level":"http","message":"POST url 200 23895 - 8.409 ms","timestamp":"2025-07-24 09:59:19.640 PM"}
+{"level":"http","message":"POST url 200 23895 - 3.019 ms","timestamp":"2025-07-24 09:59:24.632 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 09:59:34.207 PM"}
+{"level":"http","message":"POST url 200 23895 - 27.621 ms","timestamp":"2025-07-24 09:59:34.657 PM"}
+{"level":"http","message":"POST url 200 23895 - 11.295 ms","timestamp":"2025-07-24 09:59:39.643 PM"}
+{"level":"http","message":"POST url 200 23895 - 5.805 ms","timestamp":"2025-07-24 09:59:44.633 PM"}
+{"level":"http","message":"POST url 200 23895 - 8.416 ms","timestamp":"2025-07-24 09:59:49.639 PM"}
+{"level":"http","message":"POST url 200 23895 - 6.006 ms","timestamp":"2025-07-24 09:59:54.635 PM"}
+{"level":"http","message":"POST url 200 23895 - 2.737 ms","timestamp":"2025-07-24 09:59:59.629 PM"}
+{"level":"http","message":"POST url 200 23895 - 5.391 ms","timestamp":"2025-07-24 10:00:04.635 PM"}
+{"level":"http","message":"POST url 200 23895 - 4.700 ms","timestamp":"2025-07-24 10:00:09.631 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 10:00:17.490 PM"}
+{"level":"http","message":"POST url 200 23895 - 36.162 ms","timestamp":"2025-07-24 10:00:19.669 PM"}
+{"level":"http","message":"POST url 200 23895 - 32.691 ms","timestamp":"2025-07-24 10:00:24.670 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 10:00:26.225 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 10:00:33.054 PM"}
+{"level":"http","message":"POST url 200 23895 - 35.229 ms","timestamp":"2025-07-24 10:00:34.670 PM"}
+{"level":"http","message":"POST url 200 906 - 2097.387 ms","timestamp":"2025-07-24 10:00:39.582 PM"}
+{"level":"http","message":"POST url 200 23895 - 5.050 ms","timestamp":"2025-07-24 10:00:39.636 PM"}
+{"level":"http","message":"POST url 200 23895 - 7.912 ms","timestamp":"2025-07-24 10:00:44.637 PM"}
+{"level":"http","message":"POST url 200 906 - 568.602 ms","timestamp":"2025-07-24 10:00:48.420 PM"}
+{"level":"http","message":"POST url 200 23895 - 7.480 ms","timestamp":"2025-07-24 10:00:49.637 PM"}
+{"level":"http","message":"POST url 200 906 - 576.243 ms","timestamp":"2025-07-24 10:00:49.953 PM"}
+{"level":"http","message":"POST url 200 906 - 559.240 ms","timestamp":"2025-07-24 10:00:50.948 PM"}
+{"level":"http","message":"POST url 200 906 - 498.655 ms","timestamp":"2025-07-24 10:00:51.907 PM"}
+{"level":"http","message":"POST url 200 906 - 2196.390 ms","timestamp":"2025-07-24 10:00:53.129 PM"}
+{"level":"http","message":"POST url 200 906 - 2244.103 ms","timestamp":"2025-07-24 10:00:54.048 PM"}
+{"level":"http","message":"POST url 200 23895 - 5.682 ms","timestamp":"2025-07-24 10:00:54.632 PM"}
+{"level":"http","message":"POST url 200 23895 - 5.519 ms","timestamp":"2025-07-24 10:00:59.633 PM"}
+{"level":"http","message":"POST url 200 23895 - 4.821 ms","timestamp":"2025-07-24 10:01:04.632 PM"}
+{"level":"http","message":"POST url 200 23895 - 6.707 ms","timestamp":"2025-07-24 10:01:09.635 PM"}
+{"level":"http","message":"POST url 200 23895 - 3.451 ms","timestamp":"2025-07-24 10:01:14.629 PM"}
+{"level":"http","message":"GET url 200 3522 - 5.661 ms","timestamp":"2025-07-24 10:01:46.166 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 10:01:48.628 PM"}
+{"level":"http","message":"GET url 200 3522 - 2.658 ms","timestamp":"2025-07-24 10:01:48.925 PM"}
+{"level":"http","message":"GET url 200 3522 - 4.501 ms","timestamp":"2025-07-24 10:01:57.408 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 10:02:00.096 PM"}
+{"level":"http","message":"GET url 200 3522 - 1.537 ms","timestamp":"2025-07-24 10:02:00.178 PM"}
+{"level":"http","message":"GET url 404 150 - 4.279 ms","timestamp":"2025-07-24 10:02:00.525 PM"}
+{"level":"http","message":"POST url 200 23113 - 20.282 ms","timestamp":"2025-07-24 10:02:02.387 PM"}
+{"level":"http","message":"POST url 200 23895 - 16.057 ms","timestamp":"2025-07-24 10:02:07.506 PM"}
+{"level":"http","message":"POST url 200 23895 - 35.879 ms","timestamp":"2025-07-24 10:02:12.531 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 10:02:14.329 PM"}
+{"level":"http","message":"POST url 200 23895 - 8.674 ms","timestamp":"2025-07-24 10:02:17.498 PM"}
+{"level":"http","message":"POST url 200 23895 - 35.277 ms","timestamp":"2025-07-24 10:02:32.526 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 10:02:32.863 PM"}
+{"level":"http","message":"GET url 200 3522 - 3.840 ms","timestamp":"2025-07-24 10:02:35.557 PM"}
+{"level":"http","message":"GET url 404 150 - 4.274 ms","timestamp":"2025-07-24 10:02:35.603 PM"}
+{"level":"http","message":"POST url 200 23113 - 14.151 ms","timestamp":"2025-07-24 10:02:37.180 PM"}
+{"level":"http","message":"POST url 200 23895 - 5.769 ms","timestamp":"2025-07-24 10:02:42.288 PM"}
+{"level":"http","message":"POST url 200 23895 - 39.046 ms","timestamp":"2025-07-24 10:02:47.327 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 10:02:47.712 PM"}
+{"level":"http","message":"GET url 200 3522 - 2.418 ms","timestamp":"2025-07-24 10:02:49.391 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 10:03:25.805 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 10:04:09.313 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 10:04:27.040 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 10:04:34.448 PM"}
+{"level":"http","message":"GET url 200 3522 - 7.713 ms","timestamp":"2025-07-24 10:04:44.637 PM"}
+{"level":"http","message":"GET url 404 150 - 1.920 ms","timestamp":"2025-07-24 10:04:44.968 PM"}
+{"level":"http","message":"GET url 200 3522 - 1.190 ms","timestamp":"2025-07-24 10:04:45.413 PM"}
+{"level":"http","message":"GET url 404 150 - 0.599 ms","timestamp":"2025-07-24 10:04:45.434 PM"}
+{"level":"http","message":"POST url 200 23113 - 24.001 ms","timestamp":"2025-07-24 10:04:46.805 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 10:04:46.807 PM"}
+{"level":"http","message":"POST url 200 23895 - 9.383 ms","timestamp":"2025-07-24 10:04:51.916 PM"}
+{"level":"http","message":"POST url 200 23895 - 9.932 ms","timestamp":"2025-07-24 10:04:56.914 PM"}
+{"level":"http","message":"POST url 200 23895 - 9.005 ms","timestamp":"2025-07-24 10:05:01.916 PM"}
+{"level":"http","message":"POST url 200 161 - 272.166 ms","timestamp":"2025-07-24 10:05:03.309 PM"}
+{"level":"http","message":"POST url 200 23895 - 6.698 ms","timestamp":"2025-07-24 10:05:06.910 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 10:07:34.022 PM"}
+{"level":"warn","message":"Mongoose disconnected from DB","timestamp":"2025-07-24 10:23:51.768 PM"}
+{"level":"info","message":"Mongoose connected to DB","timestamp":"2025-07-24 10:23:51.808 PM"}
+{"level":"warn","message":"Mongoose disconnected from DB","timestamp":"2025-07-24 10:39:35.266 PM"}
+{"level":"info","message":"Mongoose connected to DB","timestamp":"2025-07-24 10:39:35.401 PM"}
+{"level":"warn","message":"Mongoose disconnected from DB","timestamp":"2025-07-24 10:39:42.545 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 10:46:23.701 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 10:47:02.866 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 10:47:43.670 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 10:47:59.642 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 10:49:55.944 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 10:50:04.713 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 10:50:16.183 PM"}
+{"level":"http","message":"GET url 404 146 - 5.395 ms","timestamp":"2025-07-24 10:50:25.862 PM"}
+{"level":"http","message":"GET url 404 146 - 1.039 ms","timestamp":"2025-07-24 10:50:28.003 PM"}
+{"level":"http","message":"GET url 404 146 - 0.857 ms","timestamp":"2025-07-24 10:50:28.659 PM"}
+{"level":"http","message":"GET url 404 146 - 0.646 ms","timestamp":"2025-07-24 10:50:28.826 PM"}
+{"level":"http","message":"GET url 200 3522 - 5.113 ms","timestamp":"2025-07-24 10:50:39.381 PM"}
+{"level":"http","message":"GET url 404 150 - 0.871 ms","timestamp":"2025-07-24 10:50:39.906 PM"}
+{"level":"http","message":"POST url 200 23113 - 37.906 ms","timestamp":"2025-07-24 10:50:43.400 PM"}
+{"level":"http","message":"POST url 400 1666 - 22.777 ms","timestamp":"2025-07-24 10:50:47.606 PM"}
+{"level":"http","message":"POST url 200 23895 - 13.625 ms","timestamp":"2025-07-24 10:50:48.529 PM"}
+{"level":"http","message":"POST url 400 1666 - 4.748 ms","timestamp":"2025-07-24 10:50:48.790 PM"}
+{"level":"http","message":"POST url 200 25 - 13.061 ms","timestamp":"2025-07-24 10:51:08.247 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 10:51:08.403 PM"}
+{"level":"http","message":"GET url 200 25 - 1.043 ms","timestamp":"2025-07-24 10:51:09.838 PM"}
+{"level":"http","message":"GET url 404 150 - 5.527 ms","timestamp":"2025-07-24 10:51:09.876 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 10:51:26.658 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 10:51:42.811 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 10:51:50.391 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 10:51:56.064 PM"}
+{"level":"http","message":"GET url 200 3522 - 9.095 ms","timestamp":"2025-07-24 10:52:19.019 PM"}
+{"level":"http","message":"GET url 404 150 - 2.375 ms","timestamp":"2025-07-24 10:52:19.043 PM"}
+{"level":"info","message":"✅ Database connected successfully","timestamp":"2025-07-24 10:52:21.108 PM"}
+{"level":"http","message":"POST url 200 23113 - 38.440 ms","timestamp":"2025-07-24 10:52:21.312 PM"}
+{"level":"warn","message":"Mongoose disconnected from DB","timestamp":"2025-07-24 11:13:07.354 PM"}

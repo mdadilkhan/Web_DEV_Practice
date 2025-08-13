@@ -1,0 +1,7 @@
+version: v2
+
+name: buf.build/codecafe24/learning-grpc
+
+deps:
+  - buf.build/googleapis/googleapis
+

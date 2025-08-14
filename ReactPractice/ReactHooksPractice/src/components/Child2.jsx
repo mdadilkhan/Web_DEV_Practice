@@ -1,20 +1,25 @@
-import React from 'react'
-import { useContext } from 'react'
-import { ThemeContext } from '../utils/ThemeProvider'
+import React from "react";
+import { useContext } from "react";
+import { ThemeContext } from "../utils/ThemeProvider";
 
-// 3rd step
-//this is how we consume context
 const Child2 = () => {
-    const {theme,setTheme}=useContext(ThemeContext)
-    console.log(theme);
-    
-  return (
-    <div style={{backgroundColor:theme}}>
-     <button onClick={() => setTheme(theme === 'blue' ? 'red' : 'blue')}>
-        Toggle Theme 2
-      </button>
-    </div>
-  )
-}
+  const { theme, setTheme } = useContext(ThemeContext);
 
-export default Child2
+  return (
+    <div
+      style={{
+        backgroundColor: `${theme.bgColor}`,
+        width: "500px",
+        margin: "10px auto",
+        height: "200px",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+      }}
+    >
+      <p style={{ color: `${theme.color}` }}>Hii Adil How Are you</p>
+    </div>
+  );
+};
+
+export default Child2;

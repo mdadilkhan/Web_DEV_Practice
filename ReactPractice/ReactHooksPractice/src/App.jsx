@@ -18,10 +18,10 @@ function App(){
         <div className='heading'>
            {/* <UseState/> */}
            {/* <UseEffect/> */}
-           {/* <UseContext/> */}
+           <UseContext/>
            {/* <UseRef/> */}
            {/* <UseMemo/> */}
-           <UseCallback/>
+           {/* <UseCallback/> */}
            {/* <UseReducer/> */}
            {/* <TodoApp/> */}
            {/* <UseTrasnition/> */}

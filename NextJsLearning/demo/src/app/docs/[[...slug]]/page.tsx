@@ -16,3 +16,17 @@ const page = async ({ params }: { params: Promise<{ slug: string[] }> }) => {
 };
 
 export default page;
+
+
+
+// const Docs=async({params,}:{params:Promise<{slug:string[]}>})=>{
+
+//   const {slug}=await params
+
+//   console.log(slug);
+  
+//   return <div>inisde docs</div>
+// }
+
+
+// export default Docs

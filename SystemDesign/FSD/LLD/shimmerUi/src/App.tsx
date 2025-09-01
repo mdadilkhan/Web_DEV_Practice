@@ -11,6 +11,7 @@ import ProtectedRoutes from './components/ProtectedRoutes'
 import InfiniteScroll from './components/InfiniteScroll'
 import { useState } from 'react'
 import Accordian from './components/Accordian'
+import Comments from './components/comments/Comments'
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
             <a style={{textDecoration:'none', color:'black'}} href="/login">Login</a>
             <a style={{textDecoration:'none', color:'black'}} href="/infinte-scroll">infinteScroll</a>
             <a style={{textDecoration:'none', color:'black'}} href="/accordian">Accordian</a>
+            <a style={{textDecoration:'none', color:'black'}} href="/nested-comments">Nested Comments</a>
           </nav>
 
 
@@ -51,6 +53,7 @@ function App() {
              <Route path='/draw' element={<DrawingTool/>} />
              <Route path='/infinte-scroll' element={<InfiniteScroll/>} />
              <Route path='/accordian' element={<Accordian/>} />
+             <Route path='/nested-comments' element={<Comments/>} />
              
           </Route>
 

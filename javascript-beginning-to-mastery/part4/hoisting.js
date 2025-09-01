@@ -2,12 +2,13 @@
 
 
 // here it will execute function but for x it is undefined
-// but for varible it will give undefiend only when it is vaar type of varibale if let and const it will give refrence error
+// but for varible it will give undefiend only when it is var type of varibale if let and const it will give refrence error
 getName()
-console.log(x);
-var x=7
+console.log(ans);
+var ans=7
 
 function getName(){
+    var fn=5
     console.log("hello");
     
 }
@@ -15,7 +16,7 @@ function getName(){
 
 // here it is accessible 
 getName()
-console.log(x);
+console.log(ans);
 
 
 
@@ -41,3 +42,35 @@ console.log(x);
 
 
 
+
+
+
+// for let
+// let are hoisted too, but they go into a Temporal Dead Zone (TDZ) → they exist but are not initialized.
+// Accessing them before the declaration gives a ReferenceError, not undefined.
+console.log(ans1);
+getName1()
+let ans1=5
+let getName1 = function(){
+    console.log("hello");
+    
+}
+
+getName1()
+console.log(ans1);
+
+
+
+// for const
+//  const are hoisted too, but they go into a Temporal Dead Zone (TDZ) → they exist but are not initialized.
+// Accessing them before the declaration gives a ReferenceError, not undefined.
+console.log(ans2);
+getName2()
+const ans2=5
+const getName2 = ()=>{
+    console.log("hello");
+    
+}
+
+getName2()
+console.log(ans2);

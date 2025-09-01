@@ -1,4 +1,10 @@
-import React from 'react'
+
+
+
+export const metadata={
+  title:'CodeCafe24',
+  description:"I am a developer"
+}
 
 const About = () => {
   return (
